@@ -12,6 +12,8 @@
 		1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F4DD6220038080063DDFA /* KBMobilePhoneInputViewController.m */; };
 		1D3F4DDA220046720063DDFA /* KBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F4DD9220046720063DDFA /* KBTextField.m */; };
 		1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559490221555F1004B05C0 /* KBCooaPodViewController.m */; };
+		1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
+		1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559498221A8D65004B05C0 /* KBTetureCell.m */; };
 		1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A21EF21DE000300446986 /* KBImageBrowerView.m */; };
 		1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A21F221DE002700446986 /* KBImageBrowerViewController.m */; };
 		1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA50F7921D47AB9002C9D2E /* KBSwiftViewController.swift */; };
@@ -58,6 +60,10 @@
 		1D3F4DD9220046720063DDFA /* KBTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTextField.m; sourceTree = "<group>"; };
 		1D55948F221555F1004B05C0 /* KBCooaPodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBCooaPodViewController.h; sourceTree = "<group>"; };
 		1D559490221555F1004B05C0 /* KBCooaPodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBCooaPodViewController.m; sourceTree = "<group>"; };
+		1D559494221A8814004B05C0 /* KBTextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTextureViewController.h; sourceTree = "<group>"; };
+		1D559495221A8814004B05C0 /* KBTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTextureViewController.m; sourceTree = "<group>"; };
+		1D559497221A8D65004B05C0 /* KBTetureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTetureCell.h; sourceTree = "<group>"; };
+		1D559498221A8D65004B05C0 /* KBTetureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTetureCell.m; sourceTree = "<group>"; };
 		1D8A21EE21DE000300446986 /* KBImageBrowerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBImageBrowerView.h; sourceTree = "<group>"; };
 		1D8A21EF21DE000300446986 /* KBImageBrowerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBImageBrowerView.m; sourceTree = "<group>"; };
 		1D8A21F121DE002700446986 /* KBImageBrowerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBImageBrowerViewController.h; sourceTree = "<group>"; };
@@ -161,6 +167,17 @@
 			path = "私有库的使用";
 			sourceTree = "<group>";
 		};
+		1D559493221A87EE004B05C0 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				1D559494221A8814004B05C0 /* KBTextureViewController.h */,
+				1D559495221A8814004B05C0 /* KBTextureViewController.m */,
+				1D559497221A8D65004B05C0 /* KBTetureCell.h */,
+				1D559498221A8D65004B05C0 /* KBTetureCell.m */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
 		1DA50F7521D469CB002C9D2E /* weak-Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
+				1D559493221A87EE004B05C0 /* Texture */,
 				1D55948E221555AD004B05C0 /* 私有库的使用 */,
 				1DA50F7521D469CB002C9D2E /* weak-Swift */,
 				1D14CFB621D22B500081DC49 /* scrollview+stackView */,
@@ -429,6 +447,7 @@
 				1DB459CC219D645800A23D13 /* PNVerifyCodeInputView.m in Sources */,
 				1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */,
 				1DB4599C219D626800A23D13 /* main.m in Sources */,
+				1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */,
 				1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */,
 				1D3F4DDA220046720063DDFA /* KBTextField.m in Sources */,
 				1DB459CD219D645800A23D13 /* KBInputViewController.m in Sources */,
@@ -440,6 +459,7 @@
 				1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */,
 				1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */,
 				1D14CFBC21D22DE00081DC49 /* KBSectionView.m in Sources */,
+				1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

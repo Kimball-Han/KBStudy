@@ -38,5 +38,11 @@
 		<key>classDesc</key>
 		<string>私有库的使用</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBTextureViewController</string>
+		<key>classDesc</key>
+		<string>Texture的使用</string>
+	</dict>
 </array>
 </plist>
