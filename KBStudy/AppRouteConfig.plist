@@ -16,12 +16,6 @@
 	</dict>
 	<dict>
 		<key>className</key>
-		<string>KBStudy.KBSwiftViewController</string>
-		<key>classDesc</key>
-		<string>ScrollView+StackView</string>
-	</dict>
-	<dict>
-		<key>className</key>
 		<string>KBImageBrowerViewController</string>
 		<key>classDesc</key>
 		<string>图片浏览</string>

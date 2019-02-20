@@ -30,7 +30,7 @@
 }
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
-    return [self inputTextField:textField shouldChangeCharactersInRange:range replacementString:string blankLocations:@[@3,@8] limitCount:11];
+    return [self inputTextField:textField shouldChangeCharactersInRange:range replacementString:string blankLocations:@[@3,@7,@12,@17] limitCount:18];
     return YES;
 }
 
