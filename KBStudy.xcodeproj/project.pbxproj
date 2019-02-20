@@ -145,7 +145,7 @@
 			path = "图片";
 			sourceTree = "<group>";
 		};
-		1D14CFB621D22B500081DC49 /* scrollview+stackView */ = {
+		1D14CFB621D22B500081DC49 /* UIScrollview+UIStackView */ = {
 			isa = PBXGroup;
 			children = (
 				1D14CFB721D22B820081DC49 /* KBHomeLayoutViewController.h */,
@@ -153,10 +153,10 @@
 				1D14CFBA21D22DE00081DC49 /* KBSectionView.h */,
 				1D14CFBB21D22DE00081DC49 /* KBSectionView.m */,
 			);
-			path = "scrollview+stackView";
+			path = "UIScrollview+UIStackView";
 			sourceTree = "<group>";
 		};
-		1D3F4DD4220037D10063DDFA /* 手机号处理 */ = {
+		1D3F4DD4220037D10063DDFA /* 手机号身份证号处理 */ = {
 			isa = PBXGroup;
 			children = (
 				1D3F4DD5220038080063DDFA /* KBMobilePhoneInputViewController.h */,
@@ -164,7 +164,7 @@
 				1D3F4DD8220046720063DDFA /* KBTextField.h */,
 				1D3F4DD9220046720063DDFA /* KBTextField.m */,
 			);
-			path = "手机号处理";
+			path = "手机号身份证号处理";
 			sourceTree = "<group>";
 		};
 		1D55948E221555AD004B05C0 /* 私有库的使用 */ = {
@@ -227,17 +227,16 @@
 			isa = PBXGroup;
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
-				1DBA59D7221D302800573F0A /* UIImage+Gradient.h */,
-				1DBA59D8221D302800573F0A /* UIImage+Gradient.m */,
+				1DBA59DD221D4B3800573F0A /* Utilities */,
 				1D559493221A87EE004B05C0 /* Texture */,
 				1D55948E221555AD004B05C0 /* 私有库的使用 */,
 				1DA50F7521D469CB002C9D2E /* weak-Swift */,
-				1D14CFB621D22B500081DC49 /* scrollview+stackView */,
+				1D14CFB621D22B500081DC49 /* UIScrollview+UIStackView */,
 				1DB459C6219D642F00A23D13 /* APP */,
 				1DB459C7219D645800A23D13 /* KBInputView */,
 				1D08BE37219E667400FD215E /* 图片 */,
 				1DB45995219D626800A23D13 /* Assets.xcassets */,
-				1D3F4DD4220037D10063DDFA /* 手机号处理 */,
+				1D3F4DD4220037D10063DDFA /* 手机号身份证号处理 */,
 				1DB45997219D626800A23D13 /* LaunchScreen.storyboard */,
 				1DB4599A219D626800A23D13 /* Info.plist */,
 				1DB4599B219D626800A23D13 /* main.m */,
@@ -286,6 +285,15 @@
 				1DB459CA219D645800A23D13 /* KBInputViewController.m */,
 			);
 			path = KBInputView;
+			sourceTree = "<group>";
+		};
+		1DBA59DD221D4B3800573F0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1DBA59D7221D302800573F0A /* UIImage+Gradient.h */,
+				1DBA59D8221D302800573F0A /* UIImage+Gradient.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		3080EE8503F28CB1DFF338A9 /* Frameworks */ = {
