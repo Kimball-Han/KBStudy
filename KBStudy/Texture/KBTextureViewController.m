@@ -8,9 +8,9 @@
 
 #import "KBTextureViewController.h"
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import "KBTetureCell.h"
-@interface KBTextureViewController ()<ASTableDelegate,ASTableDataSource>
-@property (nonatomic, strong)ASTableNode *tableNode;
+#import "KBPagerCell.h"
+@interface KBTextureViewController ()<ASPagerDelegate,ASPagerDataSource>
+@property (nonatomic, strong)ASPagerNode *pagerNode;
 @end
 
 
@@ -21,9 +21,9 @@
 {
     self = [super init];
     if (self) {
-        _tableNode = [ASTableNode new];
-        _tableNode.dataSource = self;
-        _tableNode.delegate = self;
+        _pagerNode = [ASPagerNode new];
+        _pagerNode.dataSource = self;
+        _pagerNode.delegate = self;
     }
     return self;
 }
@@ -31,35 +31,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view addSubnode:_tableNode];
+    [self.view addSubnode:_pagerNode];
     self.view.backgroundColor = [UIColor whiteColor];
     
 }
 -(void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
-    _tableNode.frame = self.view.bounds;
+    _pagerNode.frame = self.view.bounds;
 
 }
 
-- (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section;
-{
-    return 100;
+
+
+- (NSInteger)numberOfPagesInPagerNode:(nonnull ASPagerNode *)pagerNode {
+    return 8;
 }
--(ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath
+
+
+
+- (ASCellNodeBlock)pagerNode:(ASPagerNode *)pagerNode nodeBlockAtIndex:(NSInteger)index;
 {
-    return ^ASCellNode * (){
-        return [KBTetureCell new]; 
+    return ^ASCellNode *(){
+        return [[KBPagerCell alloc] init];
     };
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

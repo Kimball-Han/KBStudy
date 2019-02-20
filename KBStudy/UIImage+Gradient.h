@@ -22,11 +22,11 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return 渐变色的UIImage
  */
 
-
 + (UIImage*)gradientImageWithSize:(CGSize)size andColors:(NSArray*)colors andGradientType:(int)gradientType;
 
 - (UIImage *)addCornerImageWithSize:(CGSize)size;
 
+- (UIImage *)makeCircularImageWithSize:(CGSize)size withBorderWidth:(CGFloat)width;
 
 @end
 

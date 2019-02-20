@@ -31,6 +31,7 @@
 		1DB459CD219D645800A23D13 /* KBInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB459CA219D645800A23D13 /* KBInputViewController.m */; };
 		1DBA59D6221D05ED00573F0A /* KBDiscountTagNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59D5221D05ED00573F0A /* KBDiscountTagNode.m */; };
 		1DBA59D9221D302800573F0A /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59D8221D302800573F0A /* UIImage+Gradient.m */; };
+		1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59DB221D47FD00573F0A /* KBPagerCell.m */; };
 		40E751B7C642D436D48522E8 /* libPods-KBStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,8 @@
 		1DBA59D5221D05ED00573F0A /* KBDiscountTagNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBDiscountTagNode.m; sourceTree = "<group>"; };
 		1DBA59D7221D302800573F0A /* UIImage+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
 		1DBA59D8221D302800573F0A /* UIImage+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
+		1DBA59DA221D47FD00573F0A /* KBPagerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBPagerCell.h; sourceTree = "<group>"; };
+		1DBA59DB221D47FD00573F0A /* KBPagerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPagerCell.m; sourceTree = "<group>"; };
 		39C460B34E2327B0CC075863 /* Pods-KBStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.release.xcconfig"; sourceTree = "<group>"; };
 		66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719011875C04065F6BE6C773 /* Pods-KBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				1D559495221A8814004B05C0 /* KBTextureViewController.m */,
 				1D559497221A8D65004B05C0 /* KBTetureCell.h */,
 				1D559498221A8D65004B05C0 /* KBTetureCell.m */,
+				1DBA59DA221D47FD00573F0A /* KBPagerCell.h */,
+				1DBA59DB221D47FD00573F0A /* KBPagerCell.m */,
 				1DBA59D4221D05ED00573F0A /* KBDiscountTagNode.h */,
 				1DBA59D5221D05ED00573F0A /* KBDiscountTagNode.m */,
 			);
@@ -470,6 +475,7 @@
 				1DB4598E219D626700A23D13 /* AppDelegate.m in Sources */,
 				1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */,
 				1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */,
+				1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */,
 				1D14CFBC21D22DE00081DC49 /* KBSectionView.m in Sources */,
 				1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */,
 			);
