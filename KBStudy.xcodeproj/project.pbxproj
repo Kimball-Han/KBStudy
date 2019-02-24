@@ -14,6 +14,8 @@
 		1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559490221555F1004B05C0 /* KBCooaPodViewController.m */; };
 		1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
 		1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559498221A8D65004B05C0 /* KBTetureCell.m */; };
+		1D7C743C221EB6DE00631CD9 /* KBRootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C743B221EB6DE00631CD9 /* KBRootNode.m */; };
+		1D7C743D221F938C00631CD9 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
 		1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A21EF21DE000300446986 /* KBImageBrowerView.m */; };
 		1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A21F221DE002700446986 /* KBImageBrowerViewController.m */; };
 		1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA50F7921D47AB9002C9D2E /* KBSwiftViewController.swift */; };
@@ -32,6 +34,8 @@
 		1DBA59D6221D05ED00573F0A /* KBDiscountTagNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59D5221D05ED00573F0A /* KBDiscountTagNode.m */; };
 		1DBA59D9221D302800573F0A /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59D8221D302800573F0A /* UIImage+Gradient.m */; };
 		1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59DB221D47FD00573F0A /* KBPagerCell.m */; };
+		1DBA59E0221D4E8C00573F0A /* KBSegmentedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59DF221D4E8C00573F0A /* KBSegmentedNode.m */; };
+		1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */; };
 		40E751B7C642D436D48522E8 /* libPods-KBStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,8 @@
 		1D559495221A8814004B05C0 /* KBTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTextureViewController.m; sourceTree = "<group>"; };
 		1D559497221A8D65004B05C0 /* KBTetureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTetureCell.h; sourceTree = "<group>"; };
 		1D559498221A8D65004B05C0 /* KBTetureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTetureCell.m; sourceTree = "<group>"; };
+		1D7C743A221EB6DE00631CD9 /* KBRootNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBRootNode.h; sourceTree = "<group>"; };
+		1D7C743B221EB6DE00631CD9 /* KBRootNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBRootNode.m; sourceTree = "<group>"; };
 		1D8A21EE21DE000300446986 /* KBImageBrowerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBImageBrowerView.h; sourceTree = "<group>"; };
 		1D8A21EF21DE000300446986 /* KBImageBrowerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBImageBrowerView.m; sourceTree = "<group>"; };
 		1D8A21F121DE002700446986 /* KBImageBrowerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBImageBrowerViewController.h; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 		1DBA59D8221D302800573F0A /* UIImage+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
 		1DBA59DA221D47FD00573F0A /* KBPagerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBPagerCell.h; sourceTree = "<group>"; };
 		1DBA59DB221D47FD00573F0A /* KBPagerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPagerCell.m; sourceTree = "<group>"; };
+		1DBA59DE221D4E8C00573F0A /* KBSegmentedNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBSegmentedNode.h; sourceTree = "<group>"; };
+		1DBA59DF221D4E8C00573F0A /* KBSegmentedNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSegmentedNode.m; sourceTree = "<group>"; };
+		1DBA59E1221D539E00573F0A /* KBSegmentedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBSegmentedCell.h; sourceTree = "<group>"; };
+		1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSegmentedCell.m; sourceTree = "<group>"; };
 		39C460B34E2327B0CC075863 /* Pods-KBStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.release.xcconfig"; sourceTree = "<group>"; };
 		66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719011875C04065F6BE6C773 /* Pods-KBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +197,12 @@
 				1DBA59DB221D47FD00573F0A /* KBPagerCell.m */,
 				1DBA59D4221D05ED00573F0A /* KBDiscountTagNode.h */,
 				1DBA59D5221D05ED00573F0A /* KBDiscountTagNode.m */,
+				1DBA59DE221D4E8C00573F0A /* KBSegmentedNode.h */,
+				1DBA59DF221D4E8C00573F0A /* KBSegmentedNode.m */,
+				1DBA59E1221D539E00573F0A /* KBSegmentedCell.h */,
+				1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */,
+				1D7C743A221EB6DE00631CD9 /* KBRootNode.h */,
+				1D7C743B221EB6DE00631CD9 /* KBRootNode.m */,
 			);
 			path = Texture;
 			sourceTree = "<group>";
@@ -470,6 +486,8 @@
 				1DB459CC219D645800A23D13 /* PNVerifyCodeInputView.m in Sources */,
 				1DBA59D9221D302800573F0A /* UIImage+Gradient.m in Sources */,
 				1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */,
+				1DBA59E0221D4E8C00573F0A /* KBSegmentedNode.m in Sources */,
+				1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */,
 				1DB4599C219D626800A23D13 /* main.m in Sources */,
 				1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */,
 				1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */,
@@ -477,6 +495,7 @@
 				1DB459CD219D645800A23D13 /* KBInputViewController.m in Sources */,
 				1DB459C4219D62A500A23D13 /* KBNavigationController.m in Sources */,
 				1DBA59D6221D05ED00573F0A /* KBDiscountTagNode.m in Sources */,
+				1D7C743C221EB6DE00631CD9 /* KBRootNode.m in Sources */,
 				1DB459C5219D62A500A23D13 /* RootViewController.m in Sources */,
 				1D14CFB921D22B820081DC49 /* KBHomeLayoutViewController.m in Sources */,
 				1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */,
@@ -494,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB459A6219D626800A23D13 /* KBStudyTests.m in Sources */,
+				1D7C743D221F938C00631CD9 /* KBTextureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +697,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/Texture/Source";
 			};
 			name = Debug;
 		};
@@ -704,6 +725,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/KBStudy/weak-Swift/KBStudy-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/Texture/Source";
 			};
 			name = Release;
 		};

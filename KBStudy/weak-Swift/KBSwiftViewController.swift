@@ -17,16 +17,16 @@ class KBSwiftViewController: UIViewController {
         // Do any additional setup after loading the view.
         let view = KBSwiftSubview()
         self.view.addSubview(view)
-//        view.bolck = { [weak self] (a: Int, b: Int)  in
-//            guard let weakSelf = self else {
-//                return
-//            }
-//            weakSelf.load()
-//        }
-        view.bolck = { (a: Int, b: Int)  in
-            
-            self.load()
+        view.bolck = { [weak self] (a: Int, b: Int)  in
+            guard let weakSelf = self else {
+                return
+            }
+            weakSelf.load()
         }
+//        view.bolck = { (a: Int, b: Int)  in
+//
+//            self.load()
+//        }
 
         
     }
