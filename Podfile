@@ -8,6 +8,7 @@ target 'KBStudy' do
     
     pod 'KBStudy_CocoaPod'
     pod 'Masonry'
-    pod 'Texture'
+    pod 'Texture',' 2.7'
     pod 'SDWebImage'
+    pod 'GLPubSub'
 end

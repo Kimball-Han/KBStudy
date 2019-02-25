@@ -1,4 +1,5 @@
 PODS:
+  - GLPubSub (1.0.1)
   - KBStudy_CocoaPod (0.1.0)
   - Masonry (1.1.0)
   - PINCache (3.0.1-beta.6):
@@ -28,15 +29,17 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - GLPubSub
   - KBStudy_CocoaPod
   - Masonry
   - SDWebImage
-  - Texture
+  - Texture (= 2.7)
 
 SPEC REPOS:
   https://github.com/Bovvge/KB_iOS_CocoaPods_repo.git:
     - KBStudy_CocoaPod
   https://github.com/CocoaPods/Specs.git:
+    - GLPubSub
     - Masonry
     - PINCache
     - PINOperation
@@ -45,6 +48,7 @@ SPEC REPOS:
     - Texture
 
 SPEC CHECKSUMS:
+  GLPubSub: 22b669b29cb4daf4e27e339b3d773a986f585b69
   KBStudy_CocoaPod: 0f68e638a48c4f47d2d317f39571e0c289e77df1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
@@ -53,6 +57,6 @@ SPEC CHECKSUMS:
   SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
   Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
 
-PODFILE CHECKSUM: c0ac9f994e14e16cdb3c95332bc1f613af81c3a9
+PODFILE CHECKSUM: 87a6e31714eb7eb97532e2d3c2e28a567d73ede2
 
 COCOAPODS: 1.5.0
