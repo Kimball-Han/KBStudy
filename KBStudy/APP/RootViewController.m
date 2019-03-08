@@ -27,6 +27,11 @@
     [self initData];
     [self initUI];
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
 -(void)initData{
     NSArray * array = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"AppRouteConfig" ofType:@"plist"]];
     self.array = array;

@@ -22,20 +22,28 @@
     if (self) {
         self.automaticallyManagesSubnodes = YES;
         self.tableNode = [[ASTableNode alloc] init];
+        self.tableNode.allowsSelection = NO;
         self.tableNode.delegate = self;
         self.tableNode.dataSource = self;
+        self.tableNode.automaticallyAdjustsContentOffset = YES;
     }
     return self;
+}
+-(void)didLoad
+{
+    [super didLoad];
+
 }
 
 - (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section;
 {
-    return 100;
+    return 10;
 }
 -(ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return ^ASCellNode * (){
-        return [KBTetureCell new];
+        KBTetureCell *cell = [KBTetureCell new];
+        return cell;
     };
 }
 

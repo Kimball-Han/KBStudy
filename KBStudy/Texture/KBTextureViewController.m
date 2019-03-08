@@ -33,11 +33,16 @@
         _pagerNode = [ASPagerNode new];
         _pagerNode.dataSource = self;
         _pagerNode.delegate = self;
-        _pagerNode.style.flexGrow = 0.9;
+        _pagerNode.style.flexGrow = 1;
+        if (@available(iOS 11.0, *)) {
+            _pagerNode.view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }else{
+            self.automaticallyAdjustsScrollViewInsets = NO;
+        }
         
         
         _segmentedNode = [[KBSegmentedNode alloc] init];
-        _segmentedNode.style.flexGrow = 0.1;
+        _segmentedNode.style.flexBasis = ASDimensionMake(@"60pt");
         _segmentedNode.titleArrays =@[@"title1",@"title2",@"title3",@"title4",@"title5",@"title6",@"title7",@"title8"];
         
         __weak typeof(self) weakSelf = self;

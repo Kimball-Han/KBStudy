@@ -25,7 +25,24 @@
         strongSelf.title = @"detail";
     }];
     
+    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButton setTitle:@"返回" forState:UIControlStateNormal];
+    backButton.frame = CGRectMake(0, 0, 44, 44);
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    // ref to: https://github.com/molon/MLTransition/issues/13
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.navigationController setNavigationBarHidden:NO animated:NO];
+    });
+}
+
 -(void)dealloc
 {
 //    [self unsubscribeAll];

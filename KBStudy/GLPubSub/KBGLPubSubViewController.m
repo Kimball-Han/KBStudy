@@ -32,6 +32,21 @@
     [btPublish sizeToFit];
     btPublish.center = CGPointMake(100, 400);
     [self.view addSubview:btPublish];
+    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButton setTitle:@"返回" forState:UIControlStateNormal];
+    [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    backButton.frame = CGRectMake(0, 0, 44, 44);
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    
+}
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    // ref to: https://github.com/molon/MLTransition/issues/13
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.navigationController setNavigationBarHidden:NO animated:NO];
+    });
 }
 
 -(void)pushToDetailVC
