@@ -17,7 +17,6 @@
 
 @property(nonatomic,strong)NSArray * array;
 
-
 @end
 
 @implementation RootViewController

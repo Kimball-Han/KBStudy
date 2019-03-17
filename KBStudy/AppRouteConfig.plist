@@ -44,5 +44,11 @@
 		<key>classDesc</key>
 		<string>GLPubSub注意问题</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBWaterLayoutViewController</string>
+		<key>classDesc</key>
+		<string>瀑布流</string>
+	</dict>
 </array>
 </plist>

@@ -16,6 +16,10 @@
 		1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559490221555F1004B05C0 /* KBCooaPodViewController.m */; };
 		1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
 		1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559498221A8D65004B05C0 /* KBTetureCell.m */; };
+		1D7A2581223DEAEE00E69419 /* KBWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2580223DEAEE00E69419 /* KBWaterFlowLayout.m */; };
+		1D7A2584223DEB3300E69419 /* KBWaterLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2583223DEB3300E69419 /* KBWaterLayoutViewController.m */; };
+		1D7A2587223E0B3200E69419 /* KBWaterFlowLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2586223E0B3200E69419 /* KBWaterFlowLayoutCell.m */; };
+		1D7A258A223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2589223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m */; };
 		1D7C743C221EB6DE00631CD9 /* KBRootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C743B221EB6DE00631CD9 /* KBRootNode.m */; };
 		1D7C743D221F938C00631CD9 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
 		1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A21EF21DE000300446986 /* KBImageBrowerView.m */; };
@@ -77,6 +81,14 @@
 		1D559495221A8814004B05C0 /* KBTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTextureViewController.m; sourceTree = "<group>"; };
 		1D559497221A8D65004B05C0 /* KBTetureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTetureCell.h; sourceTree = "<group>"; };
 		1D559498221A8D65004B05C0 /* KBTetureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTetureCell.m; sourceTree = "<group>"; };
+		1D7A257F223DEAEE00E69419 /* KBWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterFlowLayout.h; sourceTree = "<group>"; };
+		1D7A2580223DEAEE00E69419 /* KBWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWaterFlowLayout.m; sourceTree = "<group>"; };
+		1D7A2582223DEB3300E69419 /* KBWaterLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterLayoutViewController.h; sourceTree = "<group>"; };
+		1D7A2583223DEB3300E69419 /* KBWaterLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWaterLayoutViewController.m; sourceTree = "<group>"; };
+		1D7A2585223E0B3200E69419 /* KBWaterFlowLayoutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterFlowLayoutCell.h; sourceTree = "<group>"; };
+		1D7A2586223E0B3200E69419 /* KBWaterFlowLayoutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWaterFlowLayoutCell.m; sourceTree = "<group>"; };
+		1D7A2588223E3CD000E69419 /* KBWaterFlowLayoutReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterFlowLayoutReusableView.h; sourceTree = "<group>"; };
+		1D7A2589223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWaterFlowLayoutReusableView.m; sourceTree = "<group>"; };
 		1D7C743A221EB6DE00631CD9 /* KBRootNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBRootNode.h; sourceTree = "<group>"; };
 		1D7C743B221EB6DE00631CD9 /* KBRootNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBRootNode.m; sourceTree = "<group>"; };
 		1D8A21EE21DE000300446986 /* KBImageBrowerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBImageBrowerView.h; sourceTree = "<group>"; };
@@ -224,6 +236,29 @@
 			path = Texture;
 			sourceTree = "<group>";
 		};
+		1D7A257D223DEA8200E69419 /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A257E223DEAAE00E69419 /* waterLayout */,
+				1D7A2582223DEB3300E69419 /* KBWaterLayoutViewController.h */,
+				1D7A2583223DEB3300E69419 /* KBWaterLayoutViewController.m */,
+				1D7A2585223E0B3200E69419 /* KBWaterFlowLayoutCell.h */,
+				1D7A2586223E0B3200E69419 /* KBWaterFlowLayoutCell.m */,
+				1D7A2588223E3CD000E69419 /* KBWaterFlowLayoutReusableView.h */,
+				1D7A2589223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m */,
+			);
+			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		1D7A257E223DEAAE00E69419 /* waterLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A257F223DEAEE00E69419 /* KBWaterFlowLayout.h */,
+				1D7A2580223DEAEE00E69419 /* KBWaterFlowLayout.m */,
+			);
+			path = waterLayout;
+			sourceTree = "<group>";
+		};
 		1DA50F7521D469CB002C9D2E /* weak-Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
+				1D7A257D223DEA8200E69419 /* 瀑布流 */,
 				1D31AD2E2224390D006D3816 /* GLPubSub */,
 				1DBA59DD221D4B3800573F0A /* Utilities */,
 				1D559493221A87EE004B05C0 /* Texture */,
@@ -501,6 +537,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7A2587223E0B3200E69419 /* KBWaterFlowLayoutCell.m in Sources */,
 				1DB459CC219D645800A23D13 /* PNVerifyCodeInputView.m in Sources */,
 				1DBA59D9221D302800573F0A /* UIImage+Gradient.m in Sources */,
 				1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */,
@@ -508,6 +545,7 @@
 				1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */,
 				1DB4599C219D626800A23D13 /* main.m in Sources */,
 				1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */,
+				1D7A2584223DEB3300E69419 /* KBWaterLayoutViewController.m in Sources */,
 				1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */,
 				1D3F4DDA220046720063DDFA /* KBTextField.m in Sources */,
 				1DB459CD219D645800A23D13 /* KBInputViewController.m in Sources */,
@@ -517,12 +555,14 @@
 				1DB459C5219D62A500A23D13 /* RootViewController.m in Sources */,
 				1D14CFB921D22B820081DC49 /* KBHomeLayoutViewController.m in Sources */,
 				1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */,
+				1D7A258A223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m in Sources */,
 				1DB4598E219D626700A23D13 /* AppDelegate.m in Sources */,
 				1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */,
 				1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */,
 				1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */,
 				1D31AD3422243965006D3816 /* KBGLPubSubDetailViewController.m in Sources */,
 				1D31AD3122243947006D3816 /* KBGLPubSubViewController.m in Sources */,
+				1D7A2581223DEAEE00E69419 /* KBWaterFlowLayout.m in Sources */,
 				1D14CFBC21D22DE00081DC49 /* KBSectionView.m in Sources */,
 				1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */,
 			);
