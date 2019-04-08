@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A4612D682CED020D35A5C9506D6705F"
+               BlueprintIdentifier = "1486DE5A948E8B55F9225F4E42E6E807"
+               BuildableName = "libGLPubSub.a"
                BlueprintName = "GLPubSub"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libGLPubSub.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

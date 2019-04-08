@@ -1,4 +1,5 @@
 PODS:
+  - FSCalendar (2.8.0)
   - GLPubSub (1.0.1)
   - KBStudy_CocoaPod (0.1.0)
   - Masonry (1.1.0)
@@ -17,9 +18,9 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.13):
     - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
-  - SDWebImage (4.4.5):
-    - SDWebImage/Core (= 4.4.5)
-  - SDWebImage/Core (4.4.5)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
   - Texture (2.7):
     - Texture/PINRemoteImage (= 2.7)
   - Texture/Core (2.7)
@@ -29,6 +30,7 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - FSCalendar
   - GLPubSub
   - KBStudy_CocoaPod
   - Masonry
@@ -38,7 +40,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/Bovvge/KB_iOS_CocoaPods_repo.git:
     - KBStudy_CocoaPod
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - FSCalendar
     - GLPubSub
     - Masonry
     - PINCache
@@ -48,15 +51,16 @@ SPEC REPOS:
     - Texture
 
 SPEC CHECKSUMS:
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   GLPubSub: 22b669b29cb4daf4e27e339b3d773a986f585b69
   KBStudy_CocoaPod: 0f68e638a48c4f47d2d317f39571e0c289e77df1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
-  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
 
-PODFILE CHECKSUM: 87a6e31714eb7eb97532e2d3c2e28a567d73ede2
+PODFILE CHECKSUM: c1afb10e3e2449a4b09c88bf47dc88bc36167af4
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1

@@ -11,4 +11,5 @@ target 'KBStudy' do
     pod 'Texture',' 2.7'
     pod 'SDWebImage'
     pod 'GLPubSub'
+    pod 'FSCalendar'
 end

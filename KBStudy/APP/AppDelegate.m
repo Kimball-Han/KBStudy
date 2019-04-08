@@ -19,7 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
   
+    NSURL * url = [NSURL URLWithString:@"http://www.piaoniu.com/asass/as/a/s/"];
+//    url.hasDirectoryPath = YES;
+    NSLog(@"%@\n%@", url.path,url.relativePath);
+    
+    NSURLComponents * URLComponents = [[NSURLComponents alloc] initWithString:@"http://www.piaoniu.com/asass/as/a/s/"];
+    URLComponents.host = @"beta.piaoniu.com";
+    
+    NSLog(@"%@", URLComponents.URL);
+
     return YES;
 }
 

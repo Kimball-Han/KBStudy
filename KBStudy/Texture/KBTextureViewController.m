@@ -11,6 +11,7 @@
 #import "KBPagerCell.h"
 #import "KBSegmentedNode.h"
 #import <Masonry.h>
+#import "KBFilterView.h"
 @interface KBTextureViewController ()<ASPagerDelegate,ASPagerDataSource>
 
 @property (nonatomic, strong)ASPagerNode *pagerNode;
@@ -18,6 +19,8 @@
 @property (nonatomic, strong)ASDisplayNode *rootNode;
 
 @property (nonatomic, strong)KBSegmentedNode * segmentedNode;
+
+@property (nonatomic, strong)KBFilterView * filterNode;
 
 @end
 
@@ -42,8 +45,12 @@
         
         
         _segmentedNode = [[KBSegmentedNode alloc] init];
-        _segmentedNode.style.flexBasis = ASDimensionMake(@"60pt");
+        _segmentedNode.style.flexBasis = ASDimensionMake(40);
         _segmentedNode.titleArrays =@[@"title1",@"title2",@"title3",@"title4",@"title5",@"title6",@"title7",@"title8"];
+        
+        _filterNode = [[KBFilterView alloc] init];
+        _filterNode.style.flexBasis = ASDimensionMake(40);
+        _filterNode.titleArray = @[@"button 1",@"button 2"];
         
         __weak typeof(self) weakSelf = self;
         _segmentedNode.didSelected = ^(NSInteger index) {
@@ -60,7 +67,7 @@
             ASStackLayoutSpec *stackLayout = [ASStackLayoutSpec verticalStackLayoutSpec];
             stackLayout.spacing = 0;
             stackLayout.justifyContent = ASStackLayoutJustifyContentSpaceBetween;
-            stackLayout.children = @[strongSelf.segmentedNode,strongSelf.pagerNode];
+            stackLayout.children = @[strongSelf.segmentedNode,strongSelf.filterNode,strongSelf.pagerNode];
             return stackLayout;
         };
 
