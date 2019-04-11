@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D14CFB921D22B820081DC49 /* KBHomeLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14CFB821D22B820081DC49 /* KBHomeLayoutViewController.m */; };
 		1D14CFBC21D22DE00081DC49 /* KBSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14CFBB21D22DE00081DC49 /* KBSectionView.m */; };
+		1D2BB263225B1E870081692C /* KBCalendarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB262225B1E870081692C /* KBCalendarNode.m */; };
+		1D2BB267225DF23D0081692C /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */; };
 		1D31AD3122243947006D3816 /* KBGLPubSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31AD3022243947006D3816 /* KBGLPubSubViewController.m */; };
 		1D31AD3422243965006D3816 /* KBGLPubSubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31AD3322243965006D3816 /* KBGLPubSubDetailViewController.m */; };
 		1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F4DD6220038080063DDFA /* KBMobilePhoneInputViewController.m */; };
@@ -68,6 +70,9 @@
 		1D14CFB821D22B820081DC49 /* KBHomeLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBHomeLayoutViewController.m; sourceTree = "<group>"; };
 		1D14CFBA21D22DE00081DC49 /* KBSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBSectionView.h; sourceTree = "<group>"; };
 		1D14CFBB21D22DE00081DC49 /* KBSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSectionView.m; sourceTree = "<group>"; };
+		1D2BB261225B1E870081692C /* KBCalendarNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBCalendarNode.h; sourceTree = "<group>"; };
+		1D2BB262225B1E870081692C /* KBCalendarNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBCalendarNode.m; sourceTree = "<group>"; };
+		1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
 		1D31AD2F22243947006D3816 /* KBGLPubSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBGLPubSubViewController.h; sourceTree = "<group>"; };
 		1D31AD3022243947006D3816 /* KBGLPubSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBGLPubSubViewController.m; sourceTree = "<group>"; };
 		1D31AD3222243965006D3816 /* KBGLPubSubDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBGLPubSubDetailViewController.h; sourceTree = "<group>"; };
@@ -237,6 +242,8 @@
 				1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */,
 				1D7C743A221EB6DE00631CD9 /* KBRootNode.h */,
 				1D7C743B221EB6DE00631CD9 /* KBRootNode.m */,
+				1D2BB261225B1E870081692C /* KBCalendarNode.h */,
+				1D2BB262225B1E870081692C /* KBCalendarNode.m */,
 			);
 			path = Texture;
 			sourceTree = "<group>";
@@ -300,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
+				1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */,
 				1D7A257D223DEA8200E69419 /* 瀑布流 */,
 				1D31AD2E2224390D006D3816 /* GLPubSub */,
 				1DBA59DD221D4B3800573F0A /* Utilities */,
@@ -495,6 +503,7 @@
 			files = (
 				1DB459C3219D62A500A23D13 /* AppRouteConfig.plist in Resources */,
 				1DB45999219D626800A23D13 /* LaunchScreen.storyboard in Resources */,
+				1D2BB267225DF23D0081692C /* Oswald-Medium.ttf in Resources */,
 				1DB45996219D626800A23D13 /* Assets.xcassets in Resources */,
 				1DB45994219D626700A23D13 /* Main.storyboard in Resources */,
 			);
@@ -558,6 +567,7 @@
 				1DB459C4219D62A500A23D13 /* KBNavigationController.m in Sources */,
 				1DBA59D6221D05ED00573F0A /* KBDiscountTagNode.m in Sources */,
 				1D7C743C221EB6DE00631CD9 /* KBRootNode.m in Sources */,
+				1D2BB263225B1E870081692C /* KBCalendarNode.m in Sources */,
 				1DB459C5219D62A500A23D13 /* RootViewController.m in Sources */,
 				1D14CFB921D22B820081DC49 /* KBHomeLayoutViewController.m in Sources */,
 				1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */,
