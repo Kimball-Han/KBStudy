@@ -50,5 +50,17 @@
 		<key>classDesc</key>
 		<string>瀑布流</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBStudy.KBSwiftViewController</string>
+		<key>classDesc</key>
+		<string>swift</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBCalendarViewController</string>
+		<key>classDesc</key>
+		<string>日历</string>
+	</dict>
 </array>
 </plist>

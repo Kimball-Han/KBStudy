@@ -10,6 +10,8 @@ import UIKit
 
 class KBSwiftViewController: UIViewController {
 
+    let view2 = KBSwiftSubview()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +23,9 @@ class KBSwiftViewController: UIViewController {
             guard let weakSelf = self else {
                 return
             }
-            weakSelf.load()
+            weakSelf.view2.bolck = { (a: Int, b: Int)  in
+                weakSelf.load()
+            }
         }
 //        view.bolck = { (a: Int, b: Int)  in
 //
