@@ -52,10 +52,8 @@ void kb_implementation(id self, SEL _cmd){
     for (NSDictionary *info in [_impLookupTable allValues]) {
         Class class = [info objectForKey:KBSwizzleInfoOwnerKey];
         NSString *orginSelectorName = [info objectForKey:KBSwizzleInfoOriginSelectorKey];
-        NSString *selectorName = [info objectForKey:KBSwizzleInfoSelectorKey];
-        if ([self isKindOfClass:class] &&[orginSelectorName isEqualToString:NSStringFromSelector(originSelector)] &&[selectorName isEqualToString:NSStringFromSelector(selector)] ) {
+        if ([self isKindOfClass:class] &&[orginSelectorName isEqualToString:NSStringFromSelector(originSelector)]) {
             return;
-            
         }
     }
     
@@ -78,6 +76,5 @@ void kb_implementation(id self, SEL _cmd){
                                    KBSwizzleInfoPointerKey: [NSValue valueWithPointer:oldImplementation]};
     
     [_impLookupTable setObject:swizzledInfo forKey:key];
-
 }
 @end
