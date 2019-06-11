@@ -49,6 +49,8 @@
 		1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59DB221D47FD00573F0A /* KBPagerCell.m */; };
 		1DBA59E0221D4E8C00573F0A /* KBSegmentedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59DF221D4E8C00573F0A /* KBSegmentedNode.m */; };
 		1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */; };
+		1DC6951322AF44DD003549B0 /* KBHookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6951222AF44DD003549B0 /* KBHookViewController.m */; };
+		1DC6951622AF4724003549B0 /* NSObject+Swizzzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6951522AF4724003549B0 /* NSObject+Swizzzling.m */; };
 		40E751B7C642D436D48522E8 /* libPods-KBStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +153,10 @@
 		1DBA59DF221D4E8C00573F0A /* KBSegmentedNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSegmentedNode.m; sourceTree = "<group>"; };
 		1DBA59E1221D539E00573F0A /* KBSegmentedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBSegmentedCell.h; sourceTree = "<group>"; };
 		1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSegmentedCell.m; sourceTree = "<group>"; };
+		1DC6951122AF44DD003549B0 /* KBHookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBHookViewController.h; sourceTree = "<group>"; };
+		1DC6951222AF44DD003549B0 /* KBHookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBHookViewController.m; sourceTree = "<group>"; };
+		1DC6951422AF4724003549B0 /* NSObject+Swizzzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzzling.h"; sourceTree = "<group>"; };
+		1DC6951522AF4724003549B0 /* NSObject+Swizzzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzzling.m"; sourceTree = "<group>"; };
 		39C460B34E2327B0CC075863 /* Pods-KBStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.release.xcconfig"; sourceTree = "<group>"; };
 		66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719011875C04065F6BE6C773 /* Pods-KBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -335,6 +341,7 @@
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
 				1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */,
+				1DC6951022AF44B9003549B0 /* Hook */,
 				1D2BB268226081F60081692C /* 日历 */,
 				1D7A257D223DEA8200E69419 /* 瀑布流 */,
 				1D31AD2E2224390D006D3816 /* GLPubSub */,
@@ -405,6 +412,17 @@
 				1DBA59D8221D302800573F0A /* UIImage+Gradient.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1DC6951022AF44B9003549B0 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				1DC6951122AF44DD003549B0 /* KBHookViewController.h */,
+				1DC6951222AF44DD003549B0 /* KBHookViewController.m */,
+				1DC6951422AF4724003549B0 /* NSObject+Swizzzling.h */,
+				1DC6951522AF4724003549B0 /* NSObject+Swizzzling.m */,
+			);
+			path = Hook;
 			sourceTree = "<group>";
 		};
 		3080EE8503F28CB1DFF338A9 /* Frameworks */ = {
@@ -585,8 +603,10 @@
 				1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */,
 				1DBA59E0221D4E8C00573F0A /* KBSegmentedNode.m in Sources */,
 				1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */,
+				1DC6951622AF4724003549B0 /* NSObject+Swizzzling.m in Sources */,
 				1DB4599C219D626800A23D13 /* main.m in Sources */,
 				1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */,
+				1DC6951322AF44DD003549B0 /* KBHookViewController.m in Sources */,
 				1D7B4B83224B4D3300674C91 /* KBFilterView.m in Sources */,
 				1D7A2584223DEB3300E69419 /* KBWaterLayoutViewController.m in Sources */,
 				1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */,

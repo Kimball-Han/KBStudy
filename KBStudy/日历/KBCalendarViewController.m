@@ -7,6 +7,7 @@
 //
 
 #import "KBCalendarViewController.h"
+#import "KBEventCalendarView.h"
 
 @interface KBCalendarViewController ()
 

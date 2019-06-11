@@ -62,5 +62,11 @@
 		<key>classDesc</key>
 		<string>日历</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBHookViewController</string>
+		<key>classDesc</key>
+		<string>Hook</string>
+	</dict>
 </array>
 </plist>

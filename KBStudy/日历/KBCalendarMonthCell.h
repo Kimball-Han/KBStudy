@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface KBCalendarMonthCell : UICollectionViewCell
 
+@property (nonatomic, strong)NSDate *date;
+
 @end
 
 NS_ASSUME_NONNULL_END
