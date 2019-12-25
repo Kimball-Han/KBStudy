@@ -11,7 +11,7 @@
 
 @implementation UIViewController (KBHelper)
 
-+ (nullable UIViewController *)visibleViewController {
++ (nullable UIViewController *)kb_visibleViewController {
     UIViewController *rootViewController = UIApplication.sharedApplication.delegate.window.rootViewController;
     UIViewController *visibleViewController = [rootViewController kb_visibleViewControllerIfExist];
     return visibleViewController;

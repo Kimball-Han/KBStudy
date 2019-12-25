@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (KBHelper)
 
-+ (nullable UIViewController *)visibleViewController;
++ (nullable UIViewController *)kb_visibleViewController;
 @end
 
 NS_ASSUME_NONNULL_END
