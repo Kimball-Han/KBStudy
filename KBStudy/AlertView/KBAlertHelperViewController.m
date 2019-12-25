@@ -25,6 +25,12 @@
     [self.view addSubview:sender];
     [sender setTitle:@"Test Alert" forState:UIControlStateNormal];
     [sender addTarget:self action:@selector(testAlertView) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton * sender2 = [UIButton buttonWithType:UIButtonTypeSystem];
+      sender2.frame = CGRectMake(100, 400, 200, 40);
+      [self.view addSubview:sender2];
+      [sender2 setTitle:@"test Sheet View" forState:UIControlStateNormal];
+      [sender2 addTarget:self action:@selector(testSheetView) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
@@ -66,7 +72,21 @@
     })
     .fromViewController(self)
     .show();
+    
+   
 
+}
+
+-(void)testSheetView{
+    KBAlertHelper.helper
+    .style(UIAlertControllerStyleActionSheet)
+    .title(@"提示")
+    .message(@"确定删除")
+    .addActionWithHandler(@"ok",UIAlertActionStyleDestructive,^(UIAlertAction * action){
+        
+    })
+    .addActionWithHandler(@"cancel",UIAlertActionStyleCancel,nil)
+    .show();
 }
 /*
 #pragma mark - Navigation
