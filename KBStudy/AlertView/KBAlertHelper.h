@@ -39,6 +39,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(KBAlertHelper *(^)(NSString *  _Nullable,UIAlertActionStyle, KBAlertActionHandler _Nullable))addActionWithHandler;
 
+-(KBAlertHelper *(^)(NSString *  _Nullable, KBAlertActionHandler _Nullable))addDefaultActionWithHandler;
+
 -(KBAlertHelper *(^)(UIAlertAction *))preferredAction;
 
 -(KBAlertHelper *(^)(KBAlertTextField*))addTextField;

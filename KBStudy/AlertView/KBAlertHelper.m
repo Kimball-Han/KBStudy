@@ -101,6 +101,12 @@
        };
 }
 
+-(KBAlertHelper * _Nonnull (^)(NSString * _Nullable, KBAlertActionHandler _Nullable))addDefaultActionWithHandler{
+    return ^id(NSString * _Nullable title , KBAlertActionHandler _Nullable handler){
+        return self.addActionWithHandler(title,UIAlertActionStyleDefault,handler);
+    };
+}
+
 -(KBAlertHelper * _Nonnull (^)(KBAlertTextField * _Nonnull))addTextField{
     return ^id(KBAlertTextField * handler){
         if (![self.kb_textFields containsObject:handler]) {
