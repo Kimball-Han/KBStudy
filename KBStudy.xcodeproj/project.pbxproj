@@ -22,6 +22,9 @@
 		1D559491221555F1004B05C0 /* KBCooaPodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559490221555F1004B05C0 /* KBCooaPodViewController.m */; };
 		1D559496221A8814004B05C0 /* KBTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559495221A8814004B05C0 /* KBTextureViewController.m */; };
 		1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D559498221A8D65004B05C0 /* KBTetureCell.m */; };
+		1D66D90C23B2FF6E002F236E /* KBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D66D90B23B2FF6E002F236E /* KBAlertHelper.m */; };
+		1D66D90F23B34381002F236E /* UIViewController+KBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D66D90E23B34381002F236E /* UIViewController+KBHelper.m */; };
+		1D66D91223B347F0002F236E /* KBAlertHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D66D91123B347F0002F236E /* KBAlertHelperViewController.m */; };
 		1D7A2581223DEAEE00E69419 /* KBWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2580223DEAEE00E69419 /* KBWaterFlowLayout.m */; };
 		1D7A2584223DEB3300E69419 /* KBWaterLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2583223DEB3300E69419 /* KBWaterLayoutViewController.m */; };
 		1D7A2587223E0B3200E69419 /* KBWaterFlowLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A2586223E0B3200E69419 /* KBWaterFlowLayoutCell.m */; };
@@ -101,6 +104,12 @@
 		1D559495221A8814004B05C0 /* KBTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTextureViewController.m; sourceTree = "<group>"; };
 		1D559497221A8D65004B05C0 /* KBTetureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTetureCell.h; sourceTree = "<group>"; };
 		1D559498221A8D65004B05C0 /* KBTetureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTetureCell.m; sourceTree = "<group>"; };
+		1D66D90A23B2FF6E002F236E /* KBAlertHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBAlertHelper.h; sourceTree = "<group>"; };
+		1D66D90B23B2FF6E002F236E /* KBAlertHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAlertHelper.m; sourceTree = "<group>"; };
+		1D66D90D23B34381002F236E /* UIViewController+KBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KBHelper.h"; sourceTree = "<group>"; };
+		1D66D90E23B34381002F236E /* UIViewController+KBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KBHelper.m"; sourceTree = "<group>"; };
+		1D66D91023B347F0002F236E /* KBAlertHelperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBAlertHelperViewController.h; sourceTree = "<group>"; };
+		1D66D91123B347F0002F236E /* KBAlertHelperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAlertHelperViewController.m; sourceTree = "<group>"; };
 		1D7A257F223DEAEE00E69419 /* KBWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterFlowLayout.h; sourceTree = "<group>"; };
 		1D7A2580223DEAEE00E69419 /* KBWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWaterFlowLayout.m; sourceTree = "<group>"; };
 		1D7A2582223DEB3300E69419 /* KBWaterLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWaterLayoutViewController.h; sourceTree = "<group>"; };
@@ -281,6 +290,19 @@
 			path = Texture;
 			sourceTree = "<group>";
 		};
+		1D66D90623B23D41002F236E /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1D66D90A23B2FF6E002F236E /* KBAlertHelper.h */,
+				1D66D90B23B2FF6E002F236E /* KBAlertHelper.m */,
+				1D66D90D23B34381002F236E /* UIViewController+KBHelper.h */,
+				1D66D90E23B34381002F236E /* UIViewController+KBHelper.m */,
+				1D66D91023B347F0002F236E /* KBAlertHelperViewController.h */,
+				1D66D91123B347F0002F236E /* KBAlertHelperViewController.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
 		1D7A257D223DEA8200E69419 /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +363,9 @@
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
 				1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */,
+				1D66D90623B23D41002F236E /* AlertView */,
+				1D08BE37219E667400FD215E /* 图片 */,
+				1DB459C7219D645800A23D13 /* KBInputView */,
 				1DC6951022AF44B9003549B0 /* Hook */,
 				1D2BB268226081F60081692C /* 日历 */,
 				1D7A257D223DEA8200E69419 /* 瀑布流 */,
@@ -351,8 +376,6 @@
 				1DA50F7521D469CB002C9D2E /* weak-Swift */,
 				1D14CFB621D22B500081DC49 /* UIScrollview+UIStackView */,
 				1DB459C6219D642F00A23D13 /* APP */,
-				1DB459C7219D645800A23D13 /* KBInputView */,
-				1D08BE37219E667400FD215E /* 图片 */,
 				1DB45995219D626800A23D13 /* Assets.xcassets */,
 				1D3F4DD4220037D10063DDFA /* 手机号身份证号处理 */,
 				1DB45997219D626800A23D13 /* LaunchScreen.storyboard */,
@@ -602,6 +625,7 @@
 				1DBA59D9221D302800573F0A /* UIImage+Gradient.m in Sources */,
 				1DA50F7A21D47AB9002C9D2E /* KBSwiftViewController.swift in Sources */,
 				1DBA59E0221D4E8C00573F0A /* KBSegmentedNode.m in Sources */,
+				1D66D90C23B2FF6E002F236E /* KBAlertHelper.m in Sources */,
 				1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */,
 				1DC6951622AF4724003549B0 /* NSObject+Swizzzling.m in Sources */,
 				1DB4599C219D626800A23D13 /* main.m in Sources */,
@@ -619,10 +643,12 @@
 				1D2BB271226084050081692C /* KBEventCalendarView.m in Sources */,
 				1DB459C5219D62A500A23D13 /* RootViewController.m in Sources */,
 				1D14CFB921D22B820081DC49 /* KBHomeLayoutViewController.m in Sources */,
+				1D66D90F23B34381002F236E /* UIViewController+KBHelper.m in Sources */,
 				1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */,
 				1D7A258A223E3CD000E69419 /* KBWaterFlowLayoutReusableView.m in Sources */,
 				1DB4598E219D626700A23D13 /* AppDelegate.m in Sources */,
 				1D8A21F321DE002700446986 /* KBImageBrowerViewController.m in Sources */,
+				1D66D91223B347F0002F236E /* KBAlertHelperViewController.m in Sources */,
 				1D8A21F021DE000300446986 /* KBImageBrowerView.m in Sources */,
 				1DBA59DC221D47FD00573F0A /* KBPagerCell.m in Sources */,
 				1D31AD3422243965006D3816 /* KBGLPubSubDetailViewController.m in Sources */,

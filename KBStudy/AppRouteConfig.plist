@@ -68,5 +68,11 @@
 		<key>classDesc</key>
 		<string>Hook</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBAlertHelperViewController</string>
+		<key>classDesc</key>
+		<string>KBAlertHelper</string>
+	</dict>
 </array>
 </plist>
