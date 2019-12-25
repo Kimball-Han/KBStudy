@@ -17,9 +17,7 @@
     }
     return self;
 }
--(void)dealloc{
-    NSLog(@"KBAlertTextFieldHandler dealloc");
-}
+
 
 +(KBAlertTextField *)alertTextFieldHandler:(KBAlertTextFieldHandler)handler{
     return [[KBAlertTextField alloc] initWithConfigurationHandler:handler];
@@ -119,9 +117,10 @@
     };
 }
 
--(void (^)(void))show{
-    return ^(){
+-(KBAlertHelper * (^)(void))show{
+    return ^id(){
         [self present];
+        return self;
     };
 }
 
@@ -171,8 +170,5 @@
     [self.kb_viewController presentViewController:alertController animated:YES completion:nil];
 }
 
--(void)dealloc{
-    NSLog(@"KBAlertHelper dealloc");
-}
 
 @end

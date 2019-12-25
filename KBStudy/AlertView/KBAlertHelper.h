@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(KBAlertHelper *(^)(UIViewController *))fromViewController;
 
--(void(^)(void))show;
+-(KBAlertHelper *(^)(void))show;
 
 
 
