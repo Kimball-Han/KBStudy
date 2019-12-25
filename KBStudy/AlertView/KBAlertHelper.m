@@ -142,7 +142,7 @@
 
 -(UIViewController *)kb_viewController{
     if (_kb_viewController == nil) {
-        return  [UIViewController visibleViewController];
+        return  [UIViewController kb_visibleViewController];
     }
     return _kb_viewController;
 }
