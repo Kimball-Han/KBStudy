@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "57310B016450E63387C9D64F4933E995"
-               BuildableName = "libPINOperation.a"
+               BuildableName = "PINOperation.framework"
                BlueprintName = "PINOperation"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

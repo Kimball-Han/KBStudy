@@ -15,6 +15,7 @@
 		1D2BB26E226083CA0081692C /* KBEventPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB26D226083CA0081692C /* KBEventPickView.m */; };
 		1D2BB271226084050081692C /* KBEventCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB270226084050081692C /* KBEventCalendarView.m */; };
 		1D2BB274226093590081692C /* KBCalendarMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BB273226093590081692C /* KBCalendarMonthCell.m */; };
+		1D31910823BF206000333F7B /* RXSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D31910723BF206000333F7B /* RXSwiftViewController.swift */; };
 		1D31AD3122243947006D3816 /* KBGLPubSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31AD3022243947006D3816 /* KBGLPubSubViewController.m */; };
 		1D31AD3422243965006D3816 /* KBGLPubSubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31AD3322243965006D3816 /* KBGLPubSubDetailViewController.m */; };
 		1D3F4DD7220038080063DDFA /* KBMobilePhoneInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F4DD6220038080063DDFA /* KBMobilePhoneInputViewController.m */; };
@@ -54,7 +55,7 @@
 		1DBA59E3221D539E00573F0A /* KBSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA59E2221D539E00573F0A /* KBSegmentedCell.m */; };
 		1DC6951322AF44DD003549B0 /* KBHookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6951222AF44DD003549B0 /* KBHookViewController.m */; };
 		1DC6951622AF4724003549B0 /* NSObject+Swizzzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6951522AF4724003549B0 /* NSObject+Swizzzling.m */; };
-		40E751B7C642D436D48522E8 /* libPods-KBStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */; };
+		42F839BDDE9D5A7B9CE6675E /* Pods_KBStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B293E339315120924D3C20EF /* Pods_KBStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		1D2BB270226084050081692C /* KBEventCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBEventCalendarView.m; sourceTree = "<group>"; };
 		1D2BB272226093590081692C /* KBCalendarMonthCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBCalendarMonthCell.h; sourceTree = "<group>"; };
 		1D2BB273226093590081692C /* KBCalendarMonthCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBCalendarMonthCell.m; sourceTree = "<group>"; };
+		1D31910723BF206000333F7B /* RXSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwiftViewController.swift; sourceTree = "<group>"; };
 		1D31AD2F22243947006D3816 /* KBGLPubSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBGLPubSubViewController.h; sourceTree = "<group>"; };
 		1D31AD3022243947006D3816 /* KBGLPubSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBGLPubSubViewController.m; sourceTree = "<group>"; };
 		1D31AD3222243965006D3816 /* KBGLPubSubDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBGLPubSubDetailViewController.h; sourceTree = "<group>"; };
@@ -167,8 +169,8 @@
 		1DC6951422AF4724003549B0 /* NSObject+Swizzzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzzling.h"; sourceTree = "<group>"; };
 		1DC6951522AF4724003549B0 /* NSObject+Swizzzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzzling.m"; sourceTree = "<group>"; };
 		39C460B34E2327B0CC075863 /* Pods-KBStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.release.xcconfig"; sourceTree = "<group>"; };
-		66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719011875C04065F6BE6C773 /* Pods-KBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy/Pods-KBStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		B293E339315120924D3C20EF /* Pods_KBStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E751B7C642D436D48522E8 /* libPods-KBStudy.a in Frameworks */,
+				42F839BDDE9D5A7B9CE6675E /* Pods_KBStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +234,14 @@
 				1D2BB273226093590081692C /* KBCalendarMonthCell.m */,
 			);
 			path = "日历";
+			sourceTree = "<group>";
+		};
+		1D31910623BF200600333F7B /* RXSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1D31910723BF206000333F7B /* RXSwiftViewController.swift */,
+			);
+			path = RXSwift;
 			sourceTree = "<group>";
 		};
 		1D31AD2E2224390D006D3816 /* GLPubSub */ = {
@@ -329,7 +339,6 @@
 		1DA50F7521D469CB002C9D2E /* weak-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				1DA50F7621D46A11002C9D2E /* KBStudy-Bridging-Header.h */,
 				1DA50F7B21D47F63002C9D2E /* PrefixHeader.pch */,
 				1DA50F7921D47AB9002C9D2E /* KBSwiftViewController.swift */,
 			);
@@ -363,6 +372,7 @@
 			children = (
 				1DB459BE219D62A500A23D13 /* AppRouteConfig.plist */,
 				1D2BB266225DF23D0081692C /* Oswald-Medium.ttf */,
+				1D31910623BF200600333F7B /* RXSwift */,
 				1D66D90623B23D41002F236E /* AlertView */,
 				1D08BE37219E667400FD215E /* 图片 */,
 				1DB459C7219D645800A23D13 /* KBInputView */,
@@ -406,6 +416,7 @@
 		1DB459C6219D642F00A23D13 /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				1DA50F7621D46A11002C9D2E /* KBStudy-Bridging-Header.h */,
 				1DB45992219D626700A23D13 /* Main.storyboard */,
 				1DB4598C219D626700A23D13 /* AppDelegate.h */,
 				1DB4598D219D626700A23D13 /* AppDelegate.m */,
@@ -451,7 +462,7 @@
 		3080EE8503F28CB1DFF338A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				66A694CE60D87583ADEF7EAF /* libPods-KBStudy.a */,
+				B293E339315120924D3C20EF /* Pods_KBStudy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -476,6 +487,7 @@
 				1DB45985219D626700A23D13 /* Sources */,
 				1DB45986219D626700A23D13 /* Frameworks */,
 				1DB45987219D626700A23D13 /* Resources */,
+				E0E9D27CF6D27F73DE68EAA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -528,7 +540,7 @@
 		1DB45981219D626700A23D13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "韩金波";
 				TargetAttributes = {
 					1DB45988219D626700A23D13 = {
@@ -613,6 +625,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E0E9D27CF6D27F73DE68EAA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBStudy/Pods-KBStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBStudy/Pods-KBStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KBStudy/Pods-KBStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -656,6 +685,7 @@
 				1D31AD3122243947006D3816 /* KBGLPubSubViewController.m in Sources */,
 				1D2BB26B2260822A0081692C /* KBCalendarViewController.m in Sources */,
 				1D7A2581223DEAEE00E69419 /* KBWaterFlowLayout.m in Sources */,
+				1D31910823BF206000333F7B /* RXSwiftViewController.swift in Sources */,
 				1D2BB26E226083CA0081692C /* KBEventPickView.m in Sources */,
 				1D14CFBC21D22DE00081DC49 /* KBSectionView.m in Sources */,
 				1D559499221A8D65004B05C0 /* KBTetureCell.m in Sources */,
@@ -822,6 +852,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

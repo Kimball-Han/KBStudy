@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B413CC5394214601D5DB9B446069BCAA"
-               BuildableName = "libGLPubSub.a"
+               BuildableName = "GLPubSub.framework"
                BlueprintName = "GLPubSub"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

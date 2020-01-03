@@ -74,5 +74,11 @@
 		<key>classDesc</key>
 		<string>KBAlertHelper</string>
 	</dict>
+	<dict>
+		<key>className</key>
+		<string>KBStudy.RXSwiftViewController</string>
+		<key>classDesc</key>
+		<string>RxSwift</string>
+	</dict>
 </array>
 </plist>

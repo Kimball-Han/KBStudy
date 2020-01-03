@@ -14,7 +14,7 @@
 
 - (void)hookIfPossible:(SEL _Nonnull )originSelector  selector:(SEL _Nonnull)selector;
 
-+ (void)hookClass:(Class _Nullable )classObject fromSelector:(SEL _Nullable )fromSelector toSelector:(SEL)toSelector;
++ (void)hookClass:(Class _Nullable )classObject fromSelector:(SEL _Nullable )fromSelector toSelector:(SEL _Nonnull )toSelector;
 
 @end
 
