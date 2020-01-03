@@ -1,4 +1,4 @@
-module Pods_KBStudy [system] {
+module Pods_KBStudy {
   umbrella header "Pods-KBStudy-umbrella.h"
 
   export *

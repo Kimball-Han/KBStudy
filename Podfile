@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs'
-source 'https://github.com/Bovvge/KB_iOS_CocoaPods_repo.git'
+source 'https://github.com/Kimball-Han/KB_iOS_CocoaPods_repo.git'
 
 inhibit_all_warnings!
 
@@ -12,4 +12,5 @@ target 'KBStudy' do
     pod 'SDWebImage'
     pod 'GLPubSub'
     pod 'FSCalendar'
+    pod 'RxSwift'
 end

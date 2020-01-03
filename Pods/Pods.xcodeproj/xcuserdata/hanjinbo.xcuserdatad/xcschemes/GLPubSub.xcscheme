@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1486DE5A948E8B55F9225F4E42E6E807"
+               BlueprintIdentifier = "B413CC5394214601D5DB9B446069BCAA"
                BuildableName = "libGLPubSub.a"
                BlueprintName = "GLPubSub"
                ReferencedContainer = "container:Pods.xcodeproj">

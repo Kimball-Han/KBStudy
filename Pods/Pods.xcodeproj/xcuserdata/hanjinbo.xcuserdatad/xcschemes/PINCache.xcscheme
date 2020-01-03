@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3548BE86579A2F9E1B237AB75973C78"
+               BlueprintIdentifier = "A927C3CD51C30012080D6CA07959B246"
                BuildableName = "libPINCache.a"
                BlueprintName = "PINCache"
                ReferencedContainer = "container:Pods.xcodeproj">
