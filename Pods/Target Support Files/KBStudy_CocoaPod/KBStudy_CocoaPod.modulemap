@@ -1,6 +1,0 @@
-framework module KBStudy_CocoaPod {
-  umbrella header "KBStudy_CocoaPod-umbrella.h"
-
-  export *
-  module * { export * }
-}
